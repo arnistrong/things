@@ -1,0 +1,305 @@
+1. Adicione a classe CaixaVermelha em todas as divs
+
+    <style>
+    .CaixaVermelha
+    {
+        border: 1px solid red;
+    }
+    
+    </style>
+    
+    <div>Esta é a div 1</div> <br />
+    <div>Esta é a div 2</div> <br />
+    <div>Esta é a div 3</div> <br />
+
+
+
+2. Colorir as linhas pares da tabela abaixo:
+
+    ​<table border="1">
+        <tr><td>Fausto Silva</td></tr>
+        <tr><td>Zeca Camargo</td></tr>
+        <tr><td>Sílvio Santos</td></tr>
+        <tr><td>Otávio Mesquita</td></tr>
+        <tr><td>Raul Gil</td></tr>
+        <tr><td>Gugu Liberato</td></tr>
+        <tr><td>Rodrigo Faro</td></tr>
+        <tr><td>Pedro Bial</td></tr>
+    </table>​​​​​​​​​​​​​​
+
+
+
+3. Setar apenas a fonte dos paragrafos para: font-family:Tahoma; color:blue; font-size:18px; font-weight:bold
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper imperdiet ornare. Nulla facilisi. Mauris sem erat, porta non euismod eget, elementum sit amet urna. Nullam tortor enim, laoreet at mollis eu, tincidunt eget mi. Nunc at diam purus, at condimentum erat. Etiam est quam, vestibulum at ultricies sed, iaculis pretium tellus. Etiam pulvinar, nunc non luctus adipiscing, arcu risus malesuada sem, eu rutrum metus quam in mauris. Duis id risus eu urna convallis condimentum. Nullam at felis arcu. Proin congue dictum lectus eu tincidunt.</p><br/>
+    <span>Integer in diam nulla, id suscipit urna. Praesent nisl enim, rhoncus sit amet posuere in, ultrices id orci. Mauris rhoncus rutrum blandit. Vestibulum volutpat faucibus bibendum. Etiam sit amet varius leo. Fusce at magna nec quam fringilla mollis eget sed nisi. Proin vitae nunc nulla. Sed tristique pharetra ipsum, vitae convallis nisi posuere a. Praesent consequat, leo et commodo mattis, ligula ipsum ullamcorper dui, vel venenatis neque quam sit amet dolor. Sed condimentum sapien diam, in malesuada erat. Proin ac luctus tellus. Maecenas quis justo nec libero tempus egestas vel et libero.</span><br/>
+    <div>Aliquam facilisis ante non velit luctus rutrum. Proin euismod lorem suscipit tortor aliquam tincidunt. Aliquam pellentesque justo at lorem imperdiet id semper nisi laoreet. Curabitur id ullamcorper augue. Suspendisse at ante est. Nam tempor, urna commodo ultrices luctus, diam nisi porta libero, ac fringilla sapien lectus non mauris. Nullam id tortor vulputate mi ultrices molestie ac sed metus. Nunc scelerisque malesuada massa at iaculis. Fusce quam velit, imperdiet eu mollis a, aliquet in massa. Integer dignissim, urna et ultricies ultrices, sem urna posuere justo, et fermentum arcu odio at tortor. In hac habitasse platea dictumst. Quisque nec mi non justo luctus rutrum quis et dolor. Vivamus eget purus elit, a placerat nisl. Aliquam nunc mauris, gravida sit amet elementum vitae, fringilla eu mauris. Sed ultricies, nibh sit amet consequat fringilla, orci mauris mattis sem, a sollicitudin dui libero suscipit mi. Donec aliquam libero quis nisl aliquam suscipit.</div><br/>
+    <p>Phasellus ut felis nec urna blandit placerat. Curabitur ullamcorper viverra metus, eget posuere leo faucibus viverra. In hac habitasse platea dictumst. Curabitur neque tortor, pharetra eu tincidunt interdum, pellentesque eu diam. Vivamus porta vestibulum turpis a pellentesque. Fusce ac justo nec risus fringilla sodales. Quisque pulvinar lacinia risus et molestie. Praesent hendrerit, lorem nec varius scelerisque, mauris tortor fringilla turpis, ut sagittis dolor purus nec elit. Integer eget nunc nisi. Phasellus pretium imperdiet dapibus. Integer et massa sed ipsum tincidunt venenatis.</p><br/>
+    <font>Donec lobortis faucibus tempor. Morbi et odio purus, quis egestas lorem. Ut at urna at tellus vulputate commodo. Mauris sit amet dolor ut sapien gravida facilisis. Fusce id lobortis ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum tincidunt ornare auctor. Ut faucibus nisi vel nibh pretium in luctus lorem consectetur. Mauris vitae dui magna, ut fringilla justo. Phasellus purus sem, adipiscing id pellentesque ut, sagittis ut mauris. Donec sollicitudin rutrum elementum. Suspendisse potenti. Phasellus justo massa, rhoncus quis auctor in, sollicitudin eu dui.</font><br/>
+
+
+
+4. Trocar a cor do primeiro ListItem abaixo:
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+
+
+5. Ao clicar em um botão deve esconder todos os campos da tela
+
+    <label>Botão para esconder os campos da tela</label><br />
+    <input type="button" id="btnEsconder" value="Esconder Campos">
+    <br/>
+    
+    <label>DropDownList</label><br />
+    <select>
+        <option>Opção 1</option>
+        <option>Opção 2</option>
+        <option>Opção 3</option>
+    </select>
+    <br/>
+    
+    <label>Textbox</label><br />
+    <input type="textbox">
+    <br/>
+    
+    <label>Password</label><br />
+    <input type="password">
+    <br/>
+    
+    <label>Submit</label><br />
+    <input type="submit" value="Botão Submit">
+    <br/>
+    
+    <label>Reset</label><br />
+    <input type="reset" value="Botão Reset">
+    <br/>
+    
+    <label>Checkbox</label><br />
+    <input type="checkbox">
+    <br/>
+    
+    <label>Radio</label><br />
+    <input type="radio">
+    <br/>
+    
+    <label>Button</label><br />
+    <input type="button" value="Botão">
+    <br/>
+    
+    <label>TextArea</label><br />
+    <textarea></textarea>
+    <br/>
+    
+
+
+6. Ao clicar em um botão deve esconder todos os botões da tela
+
+    <label>Botão para esconder os botões da tela</label><br />
+    <input type="button" id="btnEsconder" value="Esconder Botões">
+    <br/>
+    
+    <label>DropDownList</label><br />
+    <select>
+        <option>Opção 1</option>
+        <option>Opção 2</option>
+        <option>Opção 3</option>
+    </select>
+    <br/>
+    
+    <label>Textbox</label><br />
+    <input type="textbox">
+    <br/>
+    
+    <label>Password</label><br />
+    <input type="password">
+    <br/>
+    
+    <label>Submit</label><br />
+    <input type="submit" value="Botão Submit">
+    <br/>
+    
+    <label>Reset</label><br />
+    <input type="reset" value="Botão Reset">
+    <br/>
+    
+    <label>Checkbox</label><br />
+    <input type="checkbox">
+    <br/>
+    
+    <label>Radio</label><br />
+    <input type="radio">
+    <br/>
+    
+    <label>Button</label><br />
+    <input type="button" value="Botão">
+    <br/>
+    
+    <label>TextArea</label><br />
+    <textarea></textarea>
+    <br/>
+    
+
+
+7. Ao clicar em um botão deve trocar o SRC da imagem abaixo para "http://www.clicrbs.com.br/icon/logoPrincipalClicRbsTransparente.png"
+
+    <img src="http://www.metait.com.br/images/logo.gif"​>
+    
+    
+
+8. Ao clicar em um botão deve adicionar seu nome em todos campos da tela que tenham a classe "texto"
+
+    <label>Textbox 1</label><br />
+    <input type="textbox" class="texto">
+    <br/>
+    
+    <label>Textbox 2</label><br />
+    <input type="textbox">
+    <br/>
+    
+    <label>Textbox 3</label><br />
+    <input type="textbox">
+    <br/>
+    
+    <label>Textbox 4</label><br />
+    <input type="textbox" class="texto">
+    <br/>
+    
+    <label>Textbox 5</label><br />
+    <input type="textbox" class="texto">
+    <br/>
+
+
+
+9. Ao clicar em um botão adicione o seguinte trecho html "<span style='font-family:Tahoma; color:blue; font-size:18px; font-weight:bold'>Título do Site</span>" dentro da div com ID = minhaDiv
+
+    <div id="minhaDiv">Texto Velho</div>
+    <br />
+    
+    <div id="minhaOutraDiv">Segundo Texto Velho</div>
+    <br />
+    
+
+
+10. Crie um campo e um botão. Ao clicar no botão deve adicionar o valor do campo no final e no início da lista abaixo:
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+    
+
+
+11. Adicione seu nome no atributo Title do campo, depois implemente o evento onBlur do campo, para pegar o valor do campo e colocar no atributo Title
+
+    <label>Textbox 1</label><br />
+    <input type="textbox" class="texto" title="Textbox 1">
+    <br/>
+
+
+
+12. Remova a classe de todos os paragrafos
+
+    <style>
+        .textoGrande
+        {
+            font-family:Tahoma; color:blue; font-size:18px; font-weight:bold
+        }
+    
+    </style>
+
+    <p class="textoGrande">Parágrafo 1<p>
+    <p class="textoGrande">Parágrafo 2<p>
+    <p>Parágrafo 3<p>
+
+
+
+13. Adicione um H2 antes do paragrafo
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper imperdiet ornare. Nulla facilisi. Mauris sem erat, porta non euismod eget, elementum sit amet urna. Nullam tortor enim, laoreet at mollis eu, tincidunt eget mi. Nunc at diam purus, at condimentum erat. Etiam est quam, vestibulum at ultricies sed, iaculis pretium tellus. Etiam pulvinar, nunc non luctus adipiscing, arcu risus malesuada sem, eu rutrum metus quam in mauris. Duis id risus eu urna convallis condimentum. Nullam at felis arcu. Proin congue dictum lectus eu tincidunt.</p>
+
+
+
+14. Utilize o comando slideDown e exiba a div que está oculta
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ullamcorper imperdiet ornare. Nulla facilisi. Mauris sem erat, porta non euismod eget, elementum sit amet urna. Nullam tortor enim, laoreet at mollis eu, tincidunt eget mi. Nunc at diam purus, at condimentum erat. Etiam est quam, vestibulum at ultricies sed, iaculis pretium tellus. Etiam pulvinar, nunc non luctus adipiscing, arcu risus malesuada sem, eu rutrum metus quam in mauris. Duis id risus eu urna convallis condimentum. Nullam at felis arcu. Proin congue dictum lectus eu tincidunt.</p>
+    <div style="display:none;"><img src="http://www.metait.com.br/images/logo.gif"​></div>
+    <p>Phasellus ut felis nec urna blandit placerat. Curabitur ullamcorper viverra metus, eget posuere leo faucibus viverra. In hac habitasse platea dictumst. Curabitur neque tortor, pharetra eu tincidunt interdum, pellentesque eu diam. Vivamus porta vestibulum turpis a pellentesque. Fusce ac justo nec risus fringilla sodales. Quisque pulvinar lacinia risus et molestie. Praesent hendrerit, lorem nec varius scelerisque, mauris tortor fringilla turpis, ut sagittis dolor purus nec elit. Integer eget nunc nisi. Phasellus pretium imperdiet dapibus. Integer et massa sed ipsum tincidunt venenatis.</p>
+
+
+
+15. Utilize o comando load para carregar a página tabela.html dentro da div
+
+    15.1. Crie um novo arquivo e insira este código abaixo, depois salve como tabela.html, dentro da mesma pasta dos exercícios.
+    
+        ​<table border="1">
+            <tr><td>Fausto Silva</td></tr>
+            <tr><td>Zeca Camargo</td></tr>
+            <tr><td>Sílvio Santos</td></tr>
+            <tr><td>Otávio Mesquita</td></tr>
+            <tr><td>Raul Gil</td></tr>
+            <tr><td>Gugu Liberato</td></tr>
+            <tr><td>Rodrigo Faro</td></tr>
+            <tr><td>Pedro Bial</td></tr>
+        </table>​​​​​​​​​​​​​​
+    
+    15.2. Em outro arquivo insira este código abaixo para representar a div, e neste arquivo escreva o comando load.
+    
+        <div>Conteúdo Velho</div>
+
+
+
+
+16. Pinte o fundo de todos os itens da lista que estão logo após o item com o ID = separador
+
+    <ul>
+        <li>Fausto Silva</li>
+        <li>Zeca Camargo</li>
+        <li>Sílvio Santos</li>
+        <li id="separador">Otávio Mesquita</li>
+        <li>Raul Gil</li>
+        <li>Gugu Liberato</li>
+        <li>Rodrigo Faro</li>
+        <li>Pedro Bial</li>
+    </ul>​
+
+
+
+17. Implementar a funcionalidade "Marcar Todos" no grid abaixo:
+
+    <table border="1">
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th><input type="checkbox" id="chkMarcarTodos"></th>
+        </tr>
+        <tr>
+            <td>Fausto</td>
+            <td>Silva</td>
+            <td><input type="checkbox" name=chkPessoa"></td>
+        </tr>
+        <tr>
+            <td>Zeca</td>
+            <td>Camargo</td>
+            <td><input type="checkbox" name="chkPessoa"></td>
+        </tr>
+        <tr>
+            <td>Sílvio</td>
+            <td>Santos</td>
+            <td><input type="checkbox" name="chkPessoa"></td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>Mesquita</td>
+            <td><input type="checkbox" name="chkPessoa"></td>
+        </tr>
+    </table>
